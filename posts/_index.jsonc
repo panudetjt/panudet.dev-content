@@ -1,4 +1,8 @@
 {
-  "posts": {},
+  "posts": {
+    "jj": {
+      "encrypted": false
+    }
+  },
   "version": 1
 }

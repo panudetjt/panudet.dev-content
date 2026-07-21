@@ -16,5 +16,3 @@ asdf
 as
 df
 
-![uploading...](placeholder)
-

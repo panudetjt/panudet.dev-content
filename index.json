@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T03:40:20.954Z",
+  "generatedAt": "2026-07-21T03:40:40.304Z",
   "assets": [
     {
       "filename": "fe8bca74-opengraph-image.png",
@@ -19,6 +19,20 @@
       "title": "asdasd",
       "pubDate": "2026-07-21T01:57:00.000Z",
       "updatedDate": "2026-07-21T01:57:58.590Z",
+      "draft": false,
+      "encrypted": false,
+      "tags": [],
+      "para": "resource",
+      "zettel": "literature",
+      "heroImage": "![[fe8bca74-opengraph-image.png]]",
+      "images": []
+    },
+    {
+      "slug": "dd",
+      "path": "posts/dd.md",
+      "title": "ddd",
+      "pubDate": "2026-07-21T03:40:00.000Z",
+      "updatedDate": "2026-07-21T03:40:39.875Z",
       "draft": false,
       "encrypted": false,
       "tags": [],

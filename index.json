@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T01:54:56.012Z",
+  "generatedAt": "2026-07-21T01:55:21.489Z",
   "assets": [
     {
       "filename": "fe8bca74-opengraph-image.png",
@@ -20,6 +20,18 @@
       "tags": [],
       "title": "asdasd",
       "updatedDate": "2026-07-20T14:27:19.616Z",
+      "zettel": "literature"
+    },
+    {
+      "draft": false,
+      "encrypted": false,
+      "images": [],
+      "para": "resource",
+      "path": "posts/test-dirty.md",
+      "pubDate": "2026-07-21T00:00:00+07:00",
+      "slug": "test-dirty",
+      "tags": [],
+      "title": "Test Dirty Tree",
       "zettel": "literature"
     }
   ]

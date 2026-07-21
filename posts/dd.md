@@ -1,10 +1,9 @@
 ---
 title: "ddd"
 pubDate: "2026-07-21T03:40:00.000Z"
-updatedDate: "2026-07-21T03:40:39.875Z"
+updatedDate: "2026-07-21T07:10:44.242Z"
 draft: false
 tags: []
-slug: "dd"
 heroImage: "![[fe8bca74-opengraph-image.png]]"
 encrypted: false
 para: resource
@@ -16,3 +15,4 @@ asdf
 as
 df
 
+![[7cc6e457-Screenshot 2026-07-07 093001.png]]

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T02:08:59.250Z",
+  "generatedAt": "2026-07-21T03:40:07.166Z",
   "assets": [
     {
       "filename": "fe8bca74-opengraph-image.png",
@@ -14,18 +14,18 @@
   ],
   "posts": [
     {
+      "slug": "asdasd",
+      "path": "posts/asdasd.md",
+      "title": "asdasd",
+      "pubDate": "2026-07-21T01:57:00.000Z",
+      "updatedDate": "2026-07-21T01:57:58.590Z",
       "draft": false,
       "encrypted": false,
-      "heroImage": "![[fe8bca74-opengraph-image.png]]",
-      "images": [],
-      "para": "resource",
-      "path": "posts/asdasd.md",
-      "pubDate": "2026-07-21T01:57:00.000Z",
-      "slug": "asdasd",
       "tags": [],
-      "title": "asdasd",
-      "updatedDate": "2026-07-21T01:57:58.590Z",
-      "zettel": "literature"
+      "para": "resource",
+      "zettel": "literature",
+      "heroImage": "![[fe8bca74-opengraph-image.png]]",
+      "images": []
     }
   ]
 }

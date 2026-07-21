@@ -1,45 +1,45 @@
 {
-  "generatedAt": "2026-07-21T03:40:40.304Z",
+  "generatedAt": "2026-07-21T03:42:07.537Z",
   "assets": [
-    {
-      "filename": "fe8bca74-opengraph-image.png",
-      "size": 52131,
-      "type": "image/png"
-    },
     {
       "filename": "7cc6e457-Screenshot 2026-07-07 093001.png",
       "size": 73383,
+      "type": "image/png"
+    },
+    {
+      "filename": "fe8bca74-opengraph-image.png",
+      "size": 52131,
       "type": "image/png"
     }
   ],
   "posts": [
     {
-      "slug": "asdasd",
-      "path": "posts/asdasd.md",
-      "title": "asdasd",
-      "pubDate": "2026-07-21T01:57:00.000Z",
-      "updatedDate": "2026-07-21T01:57:58.590Z",
       "draft": false,
       "encrypted": false,
-      "tags": [],
-      "para": "resource",
-      "zettel": "literature",
       "heroImage": "![[fe8bca74-opengraph-image.png]]",
-      "images": []
+      "images": [],
+      "para": "resource",
+      "path": "posts/asdasd.md",
+      "pubDate": "2026-07-21T01:57:00.000Z",
+      "slug": "asdasd",
+      "tags": [],
+      "title": "asdasd",
+      "updatedDate": "2026-07-21T03:42:05.151Z",
+      "zettel": "literature"
     },
     {
-      "slug": "dd",
-      "path": "posts/dd.md",
-      "title": "ddd",
-      "pubDate": "2026-07-21T03:40:00.000Z",
-      "updatedDate": "2026-07-21T03:40:39.875Z",
       "draft": false,
       "encrypted": false,
-      "tags": [],
-      "para": "resource",
-      "zettel": "literature",
       "heroImage": "![[fe8bca74-opengraph-image.png]]",
-      "images": []
+      "images": [],
+      "para": "resource",
+      "path": "posts/dd.md",
+      "pubDate": "2026-07-21T03:40:00.000Z",
+      "slug": "dd",
+      "tags": [],
+      "title": "ddd",
+      "updatedDate": "2026-07-21T03:40:39.875Z",
+      "zettel": "literature"
     }
   ]
 }

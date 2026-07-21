@@ -1,38 +1,43 @@
 {
-  "generatedAt": "2026-07-21T01:55:21.489Z",
+  "generatedAt": "2026-07-21T01:57:58.591Z",
   "assets": [
     {
       "filename": "fe8bca74-opengraph-image.png",
       "size": 52131,
       "type": "image/png"
+    },
+    {
+      "filename": "7cc6e457-Screenshot 2026-07-07 093001.png",
+      "size": 73383,
+      "type": "image/png"
     }
   ],
   "posts": [
     {
+      "slug": "asdasd",
+      "path": "posts/asdasd.md",
+      "title": "asdasd",
+      "pubDate": "2026-07-21T01:57:00.000Z",
+      "updatedDate": "2026-07-21T01:57:58.590Z",
       "draft": false,
       "encrypted": false,
-      "heroImage": "![[fe8bca74-opengraph-image.png]]",
-      "images": [],
-      "para": "resource",
-      "path": "posts/asdasd.md",
-      "pubDate": "2026-07-20T14:26:00.000Z",
-      "slug": "asdasd",
       "tags": [],
-      "title": "asdasd",
-      "updatedDate": "2026-07-20T14:27:19.616Z",
-      "zettel": "literature"
+      "para": "resource",
+      "zettel": "literature",
+      "heroImage": "![[fe8bca74-opengraph-image.png]]",
+      "images": []
     },
     {
+      "slug": "test-dirty",
+      "path": "posts/test-dirty.md",
+      "title": "Test Dirty Tree",
+      "pubDate": "2026-07-21T00:00:00+07:00",
       "draft": false,
       "encrypted": false,
-      "images": [],
-      "para": "resource",
-      "path": "posts/test-dirty.md",
-      "pubDate": "2026-07-21T00:00:00+07:00",
-      "slug": "test-dirty",
       "tags": [],
-      "title": "Test Dirty Tree",
-      "zettel": "literature"
+      "para": "resource",
+      "zettel": "literature",
+      "images": []
     }
   ]
 }

@@ -3,7 +3,7 @@ title: "The zettel is a size, not a system"
 slug: "zettel-method"
 date: "2026-11-12T14:10:00.000Z"
 updated: null
-summary: "Fleeting, literature, permanent — three stages of one idea, not three folders to maintain."
+summary: "Fleeting, literature, permanent — three stages of one idea, not three folders to maintain. Watch test."
 tags:
   - "method"
   - "zettel"

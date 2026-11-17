@@ -1,0 +1,46 @@
+name: Notify site
+
+# Rebuild panudet.dev when markdown changes in this repo outside the admin.
+#
+# Admin saves already trigger a deploy through the content-sync plugin, which
+# commits with a `content-sync:` prefix; those runs are skipped here so one
+# publish never builds twice. Direct edits on GitHub (web editor, git push,
+# another machine) have no such prefix and dispatch normally.
+#
+# Required secret in THIS repo:
+#   SITE_DISPATCH_TOKEN  fine-grained PAT with Contents: Read and write on
+#                        panudetjt/panudet.dev (repository_dispatch lives under
+#                        the contents permission).
+#
+# The OG workflow added in step 6 will commit with `[skip ci]`, which GitHub
+# already honors, so it needs no filter here.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "posts/**"
+      - "images/**"
+      - "assets/**"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: notify-site
+  cancel-in-progress: true
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    if: ${{ github.event.head_commit && !startsWith(github.event.head_commit.message, 'content-sync:') }}
+    steps:
+      - name: Trigger site deploy
+        run: |
+          curl -sf -X POST \
+            -H "Authorization: Bearer ${{ secrets.SITE_DISPATCH_TOKEN }}" \
+            -H "Accept: application/vnd.github+json" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            https://api.github.com/repos/panudetjt/panudet.dev/dispatches \
+            -d '{"event_type":"content-updated","client_payload":{"source":"content-repo-push"}}'

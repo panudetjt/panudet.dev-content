@@ -9,7 +9,7 @@ build time and prerenders every public page; it is not a runtime dependency.
 |---|---|
 | `posts/<slug>.md` | Published posts. Plaintext; safe to read and diff. |
 | `drafts/<uuid>.enc` | Unpublished posts. AES-256-GCM ciphertext; no title or body in plaintext. |
-| `images/<hash>-<name>.<ext>` | Post images referenced by markdown. |
+| `images/<hash>-<name>.<ext>` | Post images referenced by markdown. content-sync exports linked media here on publish (content-addressed); do not rename or delete a file a post references. |
 | `assets/og/<slug>.png` | Generated Open Graph images (committed by CI). |
 
 ## Editing posts

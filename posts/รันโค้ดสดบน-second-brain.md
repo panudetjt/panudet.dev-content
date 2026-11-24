@@ -102,11 +102,44 @@ function Counter() {
 import confetti from 'https://esm.sh/canvas-confetti@1.9.4';
 
 console.log("Runner พร้อมยิง Confetti!");
-confetti({
-  particleCount: 80,
-  spread: 70,
-  origin: { y: 0.6 }
-});
+
+// สร้างปุ่มจำลอง UI สำหรับยิง Confetti สดใน Preview
+const root = document.getElementById('root');
+if (root) {
+  root.innerHTML = `
+    <div style="text-align: center; padding: 1.5rem 1rem;">
+      <div style="font-size: 2.2rem; margin-bottom: 0.5rem;">🎉</div>
+      <p style="margin: 0 0 1rem 0; font-weight: 500; font-size: 1.05rem;">
+        Canvas Confetti รันสดจาก esm.sh
+      </p>
+      <button id="confetti-btn" style="
+        background: #e06a4a;
+        color: #fff;
+        border: none;
+        padding: 9px 20px;
+        border-radius: 6px;
+        font-weight: 600;
+        cursor: pointer;
+        font-family: inherit;
+        box-shadow: 0 2px 8px rgba(224,106,74,0.3);
+      ">
+        ยิง Confetti อีกครั้ง! 🎊
+      </button>
+    </div>
+  `;
+
+  const btn = document.getElementById('confetti-btn');
+  const fire = () => {
+    confetti({
+      particleCount: 90,
+      spread: 70,
+      origin: { y: 0.6 }
+    });
+  };
+
+  btn?.addEventListener('click', fire);
+  fire();
+}
 ```
 
 ## ผ่านทุก Gate: สวยงาม รวดเร็ว และทดสอบ E2E อัตโนมัติ

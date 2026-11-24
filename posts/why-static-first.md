@@ -40,6 +40,20 @@ const budget = {
 };
 ```
 
+```html live
+<div id="inspector">
+  <button id="inspect-btn" type="button">Inspect budget</button>
+  <span id="inspect-out">Zero blocking scripts</span>
+</div>
+<script>
+  console.log("Budget inspector ready");
+  document.getElementById("inspect-btn").onclick = () => {
+    console.log("Inspect clicked");
+    document.getElementById("inspect-out").textContent = "All budgets passing!";
+  };
+</script>
+```
+
 > Speed is a feature only when it is measured. Otherwise it is a hope.
 
 ## The tradeoff

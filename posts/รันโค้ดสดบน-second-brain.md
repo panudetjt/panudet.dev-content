@@ -142,6 +142,28 @@ if (root) {
 }
 ```
 
+## รองรับ Systems Languages: Rust & Go
+
+นอกจาก Frontend Frameworks และ TypeScript แล้ว ตัว Runner ยังรองรับภาษาฝั่ง Systems อย่าง Rust และ Go โดยต่อเชื่อมกับ Official Playgrounds สำหรับคอมไพล์และส่ง stdout / stderr ตรงมายังแท็บ Console ทันที:
+
+```rust run
+fn main() {
+    let tech = "panudet.dev";
+    println!("Hello from Rust on {}! 🦀", tech);
+}
+```
+
+```go run
+package main
+
+import "fmt"
+
+func main() {
+    name := "Second Brain"
+    fmt.Printf("Hello from Go on %s! 🐹\n", name)
+}
+```
+
 ## ผ่านทุก Gate: สวยงาม รวดเร็ว และทดสอบ E2E อัตโนมัติ
 
 ฟีเจอร์นี้ผ่านการพิสูจน์ด้วย Automated Playwright E2E Suite ครบทั้ง 8 หมวด พร้อมอัดวิดีโอหลักฐานการทดสอบแบบคมชัด และที่สำคัญที่สุดคือ:
